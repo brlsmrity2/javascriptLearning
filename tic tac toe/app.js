@@ -12,3 +12,20 @@ const winPatterns = [
     [6, 7, 8]
 ]
 
+boxes.forEach((box) => {
+    box.addEventListener("click", () => {
+        console.log("box was clciked");
+        if (turn0) {
+            box.innerText = "0";
+            turn0 = false;
+        }
+        else {
+            box.innerText = "X";
+            turn0 = true;
+        }
+        box.disabled = true;
+        checkWinner();
+    }
+    );
+});
+
