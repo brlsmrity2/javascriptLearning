@@ -1,0 +1,15 @@
+#heading,h4,p,button{
+    color:white;
+    text-decoration: "line-through";
+
+}
+.heading-class{
+    color:pink;  
+}
+body{
+    background-color: rgb(0, 57, 100);
+}
+button{
+
+    background-color: rgb(222, 135, 158);
+}
